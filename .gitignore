@@ -1,0 +1,25 @@
+# .gitignore
+
+# Bash
+.bash_logout
+.bashrc
+.profile
+
+# Git
+.gitconfig
+
+# Less
+.lesshst
+
+# Local
+.local/
+
+# SSH
+.ssh/
+
+# Sudo
+.sudo_as_admin_successful
+
+# Cache
+.cache/
+
