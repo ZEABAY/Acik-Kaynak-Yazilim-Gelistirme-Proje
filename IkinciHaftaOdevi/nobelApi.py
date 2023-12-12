@@ -7,7 +7,7 @@ app = Flask(__name__)
 api = Api(app)
 
 class HomePage(Resource):
-    def get(self):  # self parametresi eklenmeli
+    def get(self):
         endpoints = {
             "endpoints": {
                 "/nobelPrizes": "Tüm nobel odullerinin bilgilerini verir",
